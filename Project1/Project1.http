@@ -1,0 +1,23 @@
+@Project1_HostAddress = https://localhost:7056
+
+GET {{Project1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Project1_HostAddress}}/weatherforecast
+
+###
+
+GET {{Project1_HostAddress}}/api/products
+
+###
+
+POST {{Project1_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  //Products
+}
+
+###
